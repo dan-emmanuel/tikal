@@ -1,26 +1,24 @@
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link } from "react-router-dom";
-import "../css/header.css"
 
 let Part1 = (props) => {
-   return <>
+    return <>
         <div className='container '>
+            <table class="table">
 
-            <div className='row fullPage justify-content-around align-items-center '>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                    </tr>
 
-                <div className='col text-center'>
-                    <Link className='btn btn-primary' to="/part1">Part I</Link>
-
-                </div>
-                <div className='col text-center'>
-                    <Link className='btn btn-primary' to="/part2">Part II</Link>
-
-                </div>
-
-
-            </div>
-
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
     </>
 
