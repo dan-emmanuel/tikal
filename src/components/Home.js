@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link } from "react-router-dom";
-import "../css/header.css"
+import "../css/main.css"
 
 let Home = (props) => {
    return <>
